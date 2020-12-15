@@ -1,6 +1,9 @@
 package april.concurrent.joindemo;
 
 /**
+ * join() 等同于 wait/notify
+ * 让线程的执行结果对其他线程可见！
+ *
  * @author yanzx
  */
 public class JoinDemo {
@@ -18,7 +21,7 @@ public class JoinDemo {
 
         // Callable/Future（阻塞）
         t.start();
-        // Thread.sleep( ?); //你怎么知道多久能够执行完毕？
+        // Thread.sleep(?); //你怎么知道多久能够执行完毕？
 
         // t线程中的执行结果对于main线程可见.
 
