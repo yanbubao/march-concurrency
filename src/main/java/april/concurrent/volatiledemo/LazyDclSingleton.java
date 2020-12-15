@@ -1,4 +1,4 @@
-package april.concurrent.volatilez;
+package april.concurrent.volatiledemo;
 
 import april.concurrent.ExecutorThread;
 

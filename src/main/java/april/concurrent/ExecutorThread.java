@@ -1,6 +1,6 @@
 package april.concurrent;
 
-import april.concurrent.volatilez.LazyDclSingleton;
+import april.concurrent.volatiledemo.LazyDclSingleton;
 
 /**
  * @author yanzx

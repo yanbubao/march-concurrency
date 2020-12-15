@@ -97,4 +97,5 @@ public class BulkLockDemo {
 /**
  * lock
  */
-class UserLock {}
+class UserLock {
+}
