@@ -26,6 +26,7 @@ public class TransferProcessor implements Runnable {
         while (true) {
 
             synchronized (fromAccount) {
+
                 synchronized (toAccount) {
 
                     // 业务逻辑
